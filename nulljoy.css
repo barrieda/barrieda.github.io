@@ -1,0 +1,143 @@
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+    overflow:hidden;
+}
+
+body {
+    background-color: darkgray; 
+    width: 95%; 
+    height: 90%; 
+    position: relative; 
+    margin: 0px; 
+    border: 0px none; 
+    padding: 2.5%;
+}
+
+div.bg_colors {
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    z-index: -2;
+}
+
+div#left_panel {
+    width: 17%;
+    height: 93%;
+    margin-left: 2%;
+    background: rgb(68, 136, 123);
+    background: rgba(68, 136, 123, 0.4);
+
+}
+
+div.left_panel_tab {
+    padding: 5%;
+    margin: 10%;
+    background: white;
+
+}
+
+img.area_bg {
+    position: relative; 
+    z-index: 1; 
+    width: 70vw; 
+    height:80vh;
+    margin-left: 18%;
+    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+    
+}
+
+img#groupPhoto {
+    float: right;
+    width: 65%;
+
+    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+td.presentation_tab {
+    vertical-align: middle;
+    text-align: center;
+    background-color: grey;
+}
+
+td.presentation_tab_spacer {
+    width: 5%;
+}
+
+table.presentation_body {
+    width: 50%; 
+    height: 73%; 
+    margin-top:4%; 
+    margin-left:31%; 
+    border:0; 
+    position:absolute; 
+    z-index: 2;
+    table-layout:fixed;
+}
+
+table.presentation_body td {
+        vertical-align: middle; 
+        text-align: center; 
+        height:95%; 
+        padding-top: 5%; 
+        overflow:auto; 
+        position:absolute;
+}
+
+/*
+iframe#i_launcher {
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+    */
+
+iframe#i_store {
+    -ms-zoom: 0.55;
+    -moz-transform: scale(0.55);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.55);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.55);
+    -webkit-transform-origin: 0 0;
+
+    border-width: 20px;
+}
+
+#bgc1 {
+     background-color: rgb(131, 175, 155);
+}
+
+#bgc2 {
+    background-color: rgb(200, 200, 169); 
+}
+
+#bgc3 {
+    background-color: rgb(249, 205, 173);
+}
+
+#bgc4 {
+    background-color: rgb(252, 157, 154);
+}
+
+#bgc5 {
+    background-color: rgb(254, 67, 101);
+}
+ 
