@@ -143,13 +143,12 @@ iframe#i_store {
     background-color: #4C2B4C;
 }
 
-.bridesmaidBlock { 
-    height:300px; 
+.bridesmaidBlock {  
     padding-bottom: 30px; 
 } 
 
 .bridesmaidImage {
-    height:100%;
+    height:300px;
     float:left;
     width:300px; 
 }
