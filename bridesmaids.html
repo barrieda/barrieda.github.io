@@ -1,0 +1,107 @@
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+<table style ="width: 95%; height: 90%; margin:0; border:0; position:absolute; z-index: 1; left:2.5%; max-width:1300px;" >
+    <tbody style="display:block; width:900px; right:0%; position:absolute; overflow-x:hidden;">
+        <tr>
+            <td style = "vertical-align: top; text-align: center;">
+                <div style="display:block; height:80vh; overflow:auto; width:1000px; padding-left:20px;" onscroll="ArrowOpacity()" id="ImageScrollDiv">
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Devin.jpg" /></div>
+                        <div class="bridesmaidText"> 
+                            <h1>Devin</h1>
+                            I met Devin when she was born 24 years ago. It was not a good time for me. I only got to spend 16 months as an only child. How fair is that? I am still a little bitter about it. She is currently off trying to do lawyer things on the opposite side of the country. Why? Who knows.
+                        </div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidText">
+                            <h1>Lauren B</h1>
+                            Lauren and I met as freshmen at MSU when we both lived on floor four of East Akers. We then decided we could tolerate each other enough to live together for another three years. In all those years we were very studious and quiet and spent many weekends staying in to catch up on sleep. Her current line of work is making sure baby cows don't starve to death, which I'm sure they appreciate.
+                        </div> 
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Lauren.jpg" /></div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Lassie.jpg" /></div>
+                        <div class="bridesmaidText">
+                            <h1>Lauren M</h1>
+                            When I decided I was a big kid and needed to move out of the dorms, I found the cheapest apartment I could. Since I only had 2 friends at the time, we were forced to live with with some girl (AKA Lassie) who was transferring from some other less awesome university. I guess it worked out. She brought her obsession with Harry Potter and Mr. Darcy. Currently, she lives in Chicago and plays with Mac and Cheese all day. I didn't know that was a real job either.
+                        </div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidText">
+                            <h1>Katelyn</h1>
+                            Katelyn completed the foursome of apartment 511. She was the most responsible and studious of all us, but I like to think we got to her eventually. She does have one major character flaw that I can't over look. She microwaves bacon. I think we can all agree she is a monster. Her current occupations are petting cows (among other things) and being married to Joe (see Groomsmen).
+                        </div>
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Katelyn.jpg" /></div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Jackie.jpg" /></div>
+                        <div class="bridesmaidText">
+                            <h1>Jackie</h1>
+                            I met Jackie in high school when my whole life was consumed by band. We devoted too much time to band. Like way too much. But I guess it was fun. Sometimes. We also had like every class together thanks to us being nerds and only taking AP classes. What were we thinking? Recently she decided to go on a four month road trip around the country. I have no idea where she is right now. She could be anywhere. Hopefully she'll be back by October
+                        </div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidText">
+                            <h1>Betsy</h1>
+                            The Wyns family made the lovely decision of moving to Michigan in the early 90s, where they happened to settle right next to the Bruen homestead. Since I was 4 years old and not in charge of most decisions in my life, I was forced on play dates with the neighbor girl. I guess she was alright because I never got rid of her. Until last year, that is, when she decided to move to the Netherlands and travel the world without me…
+                        </div>
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Betsy.jpg" /></div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/Rachel.jpg" /></div>
+                        <div class="bridesmaidText">
+                            <h1>Rachel</h1>
+                            I met Rachel in early elementary school. I'm assuming I had no friends so I just kinda flung myself at whoever was closest, and she was the unlucky one that never got away. We then bonded over bands that screamed a lot and playing the clarinet. Those things don't really go together, but we made it work. She is currently the queen of retail and making plans for world conquest.
+                        </div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidText">
+                            <h1>Jenny</h1>
+                            I met Jenny sometime around second grade, but who remembers that far back. Life was all a blur of recess and naps. The good old times. Currently, Jenny has been adopted by Dave and I and you can find her in our house most days of the week. Sometimes without us. She is sneaky. She says she does something with lawyers but mostly it sounds like her boss just takes them to happy hour every day.
+                        </div> 
+                        <div class="bridesmaidImage"><img src="img/Bridesmaids/JennyGIF.gif" /></div>
+                    </div>
+                    <div style="width:100%; height: 75px; float:left;"></div>
+                </div>
+                <div style="text-align:left; font-size:300%; opacity:0.5;" id="ScrollIndicator">▼
+                    <span style="opacity:0.4">▼</span>  
+                    <span style="opacity:0.3">▼</span>  
+                    <span style="opacity:0.2">▼</span>  
+                    <span style="opacity:0.1">▼</span>
+                    <span style="opacity:0">▼</span>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+
+    var d = document.getElementById("ImageScrollDiv");
+    function ArrowOpacity() {
+        var scrollPercent = Math.floor(d.scrollTop / (d.scrollHeight - d.clientHeight) * 100) / 100 
+        document.getElementById("ScrollIndicator").style.opacity = 0.5 - (scrollPercent / 2.0);
+
+    }
+</script>
+<div id="left_panel" style="position:absolute; z-index:2; font-size: 90%; height:100px;">
+    <div id="lp_spacer" style="height: 1%"></div>
+    <div class="left_panel_tab" style="font-size:115%; font-weight: bold;">
+       <a href="index.html" style="color:#370037;">BACK</a>
+    </div>
+</div>
+
+
+<div id="bgc1" class="bg_colors" style="height: 59%; top: 2.5%;" ></div>
+<div id="bgc2" class="bg_colors" style="height: 6%;  top: 59.5%;" ></div>
+<div id="bgc3" class="bg_colors" style="height: 4%;  top: 65.5%;" ></div>
+<div id="bgc4" class="bg_colors" style="height: 6%;  top: 69%;" ></div>
+<div id="bgc5" class="bg_colors" style="height: 24%; top: 74%;" ></div>
+
+</body>
+<html>

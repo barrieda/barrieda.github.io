@@ -27,17 +27,17 @@ div.bg_colors {
 
 div#left_panel {
     width: 230px;
-    height: 93%;
+    height: 90%;
     margin-left: 2%;
     background: rgb(68, 136, 123);
-    background: rgba(68, 136, 123, 0.4);
+    background: rgba(218, 185, 218, 0.51);
 
 }
 
 div.left_panel_tab {
     padding: 5%;
     margin: 10%;
-    background: rgba(131, 192, 164, 0.57);
+    background: rgba(218, 185, 218, 0.51);
 	text-align:center;
 
 }
@@ -124,22 +124,46 @@ iframe#i_store {
 }
 
 #bgc1 {
-     background-color: rgb(131, 175, 155);
+     background-color: #370037;
 }
 
 #bgc2 {
-    background-color: rgb(200, 200, 169); 
+    background-color: #4B174B; 
 }
 
 #bgc3 {
-    background-color: rgb(249, 205, 173);
+    background-color: #634363;
 }
 
 #bgc4 {
-    background-color: rgb(252, 157, 154);
+    background-color: #766176;
 }
 
 #bgc5 {
-    background-color: rgb(254, 67, 101);
+    background-color: #4C2B4C;
 }
- 
+
+.bridesmaidBlock { 
+    height:300px; 
+    padding-bottom: 30px; 
+} 
+
+.bridesmaidImage {
+    height:100%;
+    float:left;
+    width:300px; 
+}
+
+.bridesmaidImage img {
+    max-height:100%;
+    max-width:100%;
+}
+
+.bridesmaidText {
+    float: left;
+    width: 400px;
+    background-color: rgba(218, 185, 218, 0.61);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
