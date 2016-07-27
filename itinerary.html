@@ -1,0 +1,79 @@
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+<table style ="width: 95%; height: 90%; margin:0; border:0; position:absolute; z-index: 1; left:2.5%; max-width:1300px;" >
+    <tbody style="display:block; width:900px; right:0%; position:absolute; overflow-x:hidden;">
+        <tr>
+            <td style = "vertical-align: top; text-align: center;">
+                <div style="display:block; height:80vh; overflow:auto; width:1000px; padding-left:20px;" onscroll="ArrowOpacity()" id="ImageScrollDiv">
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage">2 PM</div>
+                        <div class="bridesmaidText"> 
+                            <h1>Ceremony Starts</h1>
+                            Holy Spirit Catholic Church <br /> 3700 Harvey Lake Rd <br />Highland Charter Twp, MI 48356
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidText">
+                            <h1>Cocktail Hour</h1>
+                            Horderves and drinks directly following the ceremony at <br />
+                            -<br />
+                            John &amp; Gale Bruen Residence <br />
+                            2115 Ormond Rd <br />
+                            While Lake MI 48383    
+                        </div> 
+                        <div class="bridesmaidImage">4 PM</div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="bridesmaidBlock">
+                        <div class="bridesmaidImage">6 PM</div>
+                        <div class="bridesmaidText">
+                            <h1>Reception</h1>
+                            Our adult guests are invited to join us for dinner and drinks at the Sharks Club Bar and Grill.
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div style="text-align:left; font-size:300%; opacity:0.5;" id="ScrollIndicator">▼
+                    <span style="opacity:0.4">▼</span>  
+                    <span style="opacity:0.3">▼</span>  
+                    <span style="opacity:0.2">▼</span>  
+                    <span style="opacity:0.1">▼</span>
+                    <span style="opacity:0">▼</span>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+
+    var d = document.getElementById("ImageScrollDiv");
+    function ArrowOpacity() {
+        var scrollPercent = Math.floor(d.scrollTop / (d.scrollHeight - d.clientHeight) * 100) / 100 
+        document.getElementById("ScrollIndicator").style.opacity = 0.5 - (scrollPercent / 2.0);
+
+    }
+    ArrowOpacity();
+</script>
+<div id="left_panel" style="position:absolute; z-index:2; font-size: 90%; height:100px;">
+    <div id="lp_spacer" style="height: 1%"></div>
+    <div class="left_panel_tab" style="font-size:115%; font-weight: bold;">
+       <a href="index.html" style="color:#370037;">BACK</a>
+    </div>
+</div>
+
+
+<div id="bgc1" class="bg_colors" style="height: 59%; top: 2.5%;"></div>
+<div id="bgc2" class="bg_colors" style="height: 6%;  top: 59.5%;"></div>
+<div id="bgc3" class="bg_colors" style="height: 4%;  top: 65.5%;"></div>
+<div id="bgc4" class="bg_colors" style="height: 6%;  top: 69%;"></div>
+<div id="bgc5" class="bg_colors" style="height: 24%; top: 74%;"></div>
+
+</body>
+<html>

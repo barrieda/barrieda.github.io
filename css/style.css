@@ -31,7 +31,7 @@ div#left_panel {
     margin-left: 2%;
     background: rgb(68, 136, 123);
     background: rgba(218, 185, 218, 0.51);
-
+    overflow: auto;
 }
 
 div.left_panel_tab {
@@ -152,6 +152,8 @@ iframe#i_store {
     float:left;
     width:300px; 
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 600%;
 }
 
 .bridesmaidImage img {
